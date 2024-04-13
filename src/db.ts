@@ -3,10 +3,10 @@ import { Sequelize } from 'sequelize';
 const sequelize = new Sequelize(
     "cafe",
     "root",
-    "1234",
+    "eduunit1!",
     {
         dialect: "mysql",
-        host:"localhost",
+        host:"147.45.190.87",
         port: 3306
     }
 )
