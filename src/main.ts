@@ -7,8 +7,8 @@ import fileUpload from 'express-fileupload';
 import { dirname } from 'path';
 
 
-const HOST = 'localhost';
-const PORT = 9000;
+const HOST = '85.193.94.46';
+const PORT = 7000;
 const app = express();
 app.use(cors());
 app.use(fileUpload({}));
